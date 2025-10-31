@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVRETTS</title>
+    <!-- FONT AWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <!-- HEADER-SECTION -->
+    <header class="header-section">
+      <div class="container">
+        <nav>
+          <div class="nav-logo">
+            <a href="./index.html">
+              <img src="./Assets/Everetts-logo.png" alt="" />
+            </a>
+          </div>
+
+          <input hidden type="checkbox" name="nav-check" id="nav-check" />
+
+          <label for="nav-check" class="navbar-toggler">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+
+          <div class="navbar-collapsed">
+            <ul>
+              <li class="nav-item">
+                <a class="nav-links active" href="">Home</a>
+              </li>
+              <li class="nav-item"><a class="nav-links" href="">About</a></li>
+              <li class="nav-item">
+                <a class="nav-links" href="">Destination</a>
+              </li>
+              <li class="nav-item"><a class="nav-links" href="">My blog</a></li>
+              <li class="nav-item">
+                <a class="nav-links" href="">Products</a>
+              </li>
+              <li class="nav-item last-item">
+                <a class="nav-links" href="">FAQ's</a>
+              </li>
+            </ul>
+            <div class="navbtn">
+              <a href="" class="primary-btn">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- BANNER SECTION -->
+      <section class="banner-section">
+        <div class="container">
+          <div class="row banner-row">
+            <div class="col-7">
+              <div class="banner-content">
+                <h1 class="title1">
+                  Find Your <br />Perfect <span>Loan</span>
+                </h1>
+                <p>
+                  Integer lectus diam, ultrices mollis urna vel, euismod commodo
+                  libero. Aenean quis erat in nisl finibus condimentum.
+                </p>
+                <div class="apply-btn">
+                  <a href="" class="secondary-btn">Apply Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <form class="userInput" action="">
+                <p class="subText">
+                  sign up for my weekly Mindset & Markets Newsletter?
+                </p>
+                <div class="row">
+                  <div class="col-6">
+                    <input
+                      type="text"
+                      name="userText"
+                      id="userText"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="col-6">
+                    <input
+                      type="number"
+                      name="usernumber"
+                      id="usernumber"
+                      placeholder="Number"
+                    />
+                  </div>
+                </div>
+                <input
+                  type="email"
+                  name="useremail"
+                  id="useremail"
+                  placeholder="Email"
+                />
+                <textarea
+                  name=""
+                  id="userDesc"
+                  placeholder="Message"
+                ></textarea>
+                <input type="submit" class="secondary-btn" value="Submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- LOAN PRODUCT SECTION -->
+      <section class="product-section">
+        <div class="container">
+          <div class="product-heading">
+            <h2 class="title2">
+              The Loan <strong><i>Products</i></strong>
+            </h2>
+            <p>
+              elementum dolor vehicula, tincidunt lectus. Nullam sed mi
+              molestie, elementum<br />neque eget, accumsan ante. Duis sagittis
+              neque id urna malesuada mattis.
+            </p>
+          </div>
+          <div class="row production-row">
+            <div class="col-4">
+              <div class="card">
+                <div class="card-img">
+                  <img src="./Assets/card-1.png" alt="" />
+                </div>
+                <h4>Nunc accumsan mi sed eros <br />vestibulum,</h4>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <div class="card-img">
+                  <img src="./Assets/card-2.png" alt="" />
+                </div>
+                <h4>Nunc accumsan mi sed eros <br />vestibulum,</h4>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <div class="card-img">
+                  <img src="./Assets/card-3.png" alt="" />
+                </div>
+                <h4>Nunc accumsan mi sed eros <br />vestibulum,</h4>
+              </div>
+            </div>
+          </div>
+          <div class="read-more-btn">
+            <a href="" class="primary-btn">Read More</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <section class="footer-section">
+      <div class="container">
+        <div class="logo-footer">
+          <a href="index.html">
+            <img src="./Assets/fotter-middle.png" alt="" />
+          </a>
+          <p>
+            © 2025 <a class="link-items" href="index.html">Everetts Lending</a>.
+            All Rights Reserved Privacy policy
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

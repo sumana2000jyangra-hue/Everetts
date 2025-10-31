@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #d00000;
+  --secondary-color: #001f51;
+  --tertiary-color: #b8b8b8;
+}
+
+body {
+  font-family: "inter";
+  font-family: "poppins";
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.primary-btn {
+  padding: 18.5px 30.5px;
+  border-radius: 7px;
+  background: var(--secondary-color);
+  color: white;
+}
+
+.primary-btn:hover {
+  background: #2151a9;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.col-7 {
+  width: calc(8.33% * 7);
+  padding: 0 15px;
+}
+
+.col-5 {
+  width: calc(8.33% * 5);
+  padding: 0 15px;
+}
+
+.col-4 {
+  width: calc(8.33% * 4);
+  padding: 0 15px;
+}
+
+.title1 {
+  font-family: "inter", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.title2 {
+  font-family: "inter", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+p {
+  font-family: "poppins";
+  margin: 20px 0;
+  line-height: 28px;
+}
+
+/* 
+====================
+NAVBAR-SECTION 
+====================
+*/
+
+.header-section {
+  padding: 15px 0;
+}
+.nav-logo > a {
+  width: 208.49px;
+}
+.nav-logo > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+nav,
+.navbar-collapsed,
+.navbar-collapsed > ul {
+  display: flex;
+  align-items: center;
+}
+.navbar-collapsed {
+  flex-grow: 1;
+}
+.navbar-collapsed > ul {
+  margin-left: auto;
+}
+.nav-item {
+  margin-right: 35px;
+}
+.last-item {
+  margin: 0 !important;
+}
+.nav-links {
+  color: black;
+}
+.nav-links:hover {
+  color: var(--primary-color);
+}
+.active {
+  color: var(--primary-color) !important;
+}
+.navbtn {
+  margin-left: 30px;
+}
+.navbar-toggler {
+  display: none;
+}
+
+/*
+==================
+BANNER SECTION
+==================
+*/
+
+.banner-section {
+  min-height: 590px;
+  background: url(../Assets/banner.png) no-repeat center/cover
+    rgba(179, 175, 176, 100%);
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 57px 0 56px;
+}
+
+.banner-row {
+  align-items: center;
+}
+
+.banner-heading {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-family: "inter";
+}
+
+span {
+  color: var(--primary-color) !important;
+  font-weight: bold;
+  font-style: italic;
+}
+.secondary-btn {
+  padding: 18.5px 36.5px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 7px;
+}
+.secondary-btn:hover {
+  background: var(--secondary-color);
+}
+
+.banner-content > P {
+  max-width: 571px;
+}
+
+.userInput {
+  background: white;
+  padding: 34px 39px 40px 19px;
+  border-radius: 20px;
+}
+
+.subText {
+  font-size: 24px;
+  font-family: "inter", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: var(--secondary-color);
+  text-transform: capitalize;
+}
+
+.userInput input,
+#userDesc {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid var(--tertiary-color);
+  padding: 14px 15px 13px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+#userText,
+#usernumber,
+#useremail,
+#userDesc {
+  margin-bottom: 20px;
+}
+
+.userInput input[type="submit"] {
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+
+/* LOAN PRODUCT SECTION  */
+
+.product-section {
+  padding: 40px 0;
+  background: #f3f3f3;
+}
+
+.production-row {
+  justify-content: center;
+}
+
+.product-heading {
+  text-align: center;
+}
+
+.product-heading > .title2 {
+  margin-bottom: 40px;
+}
+
+.title2 > strong {
+  color: var(--primary-color);
+}
+
+.product-heading > p {
+  max-width: 777px;
+  margin: 0 auto 40px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.card > .card-img > img {
+  width: 100%;
+  height: 285px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card > h4 {
+  margin-top: 22px;
+  color: var(--secondary-color);
+}
+
+.read-more-btn {
+  text-align: center;
+}
+
+.read-more-btn > .primary-btn {
+  margin-top: 21px;
+}
+
+/*
+====================
+FOOTER SECTION 
+====================
+*/
+
+.footer-section {
+  padding: 55px 0;
+  background: url(../Assets/footer.png) no-repeat center/cover
+    rgba(0, 31, 81, 90%);
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-footer {
+  text-align: center;
+  color: white;
+}
+
+.logo-footer > a {
+  max-width: 312.84px;
+}
+
+.logo-footer > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.link-items {
+  color: #f3f3f3;
+}
+
+.link-items:hover {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 992px) {
+  .title1 {
+    font-size: 50px;
+  }
+  .title2 {
+    font-size: 32px;
+  }
+  /* 
+    Navbar Section
+  */
+  .navbar-collapsed {
+    display: none;
+  }
+  .navbar-toggler {
+    display: block;
+    margin-left: auto;
+  }
+  .header-section {
+    position: relative;
+  }
+  #nav-check:checked ~ .navbar-collapsed {
+    display: block;
+    position: absolute;
+    top: 95.84px;
+    background: white;
+    left: 0;
+    padding: 15px 0;
+    right: 0;
+  }
+  .navbar-collapsed > ul {
+    flex-direction: column;
+  }
+  .navbtn {
+    text-align: center;
+    margin: 0 !important;
+  }
+  .nav-item {
+    margin: 0 0 20px !important ;
+  }
+
+  /*
+  Banner Section
+  */
+  .col-7,
+  .col-5 {
+    width: 100%;
+  }
+  .banner-content {
+    margin-bottom: 30px;
+  }
+  .subText {
+    font-size: 18px;
+  }
+
+  /* Production Section */
+
+  .col-4 {
+    width: 50%;
+  }
+  .production-row .card {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-4 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .col-6 {
+    width: 100%;
+  }
+  .nav-logo > a {
+    width: 150px;
+  }
+  .navbar-collapsed {
+    top: 79.34px !important;
+  }
+}
+
+/* 1400px 1200px 992px 768px 576px */
