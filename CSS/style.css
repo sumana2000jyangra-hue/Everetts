@@ -69,7 +69,10 @@ ul {
   width: calc(8.33% * 4);
   padding: 0 15px;
 }
-
+.col-50{
+  width: 50%;
+  padding: 0 15px;
+}
 .title1 {
   font-family: "inter", sans-serif;
   font-size: 100px;
@@ -149,7 +152,7 @@ BANNER SECTION
 
 .banner-section {
   min-height: 590px;
-  background: url(../Assets/banner.png) no-repeat center/cover
+  background: url(../assets/banner.png) no-repeat center/cover
     rgba(179, 175, 176, 100%);
   background-blend-mode: darken;
   display: flex;
@@ -225,7 +228,34 @@ span {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
 }
-
+/*
+====================
+ABOUT OUR TEAM SECTION 
+====================
+*/
+.about-team-sec{
+  padding: 100px;
+}
+.about-row{
+  align-items: center;
+}
+.about-team-desc desc{
+    max-width: 539px;
+    margin: 10px 0 37px;
+    line-height: 28px;
+    padding: 100px;
+}
+.about-team-img{
+  max-width: 568px;
+}
+.about-team-img> img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.about-cntn{
+  max-width: 539px;
+}
 
 /* LOAN PRODUCT SECTION  */
 
@@ -289,7 +319,7 @@ FOOTER SECTION
 
 .footer-section {
   padding: 55px 0;
-  background: url(../Assets/footer.png) no-repeat center/cover
+  background: url(../assets/fotter-middle.png) center/cover
     rgba(0, 31, 81, 90%);
   background-blend-mode: darken;
   display: flex;
@@ -401,5 +431,9 @@ FOOTER SECTION
     top: 79.34px !important;
   }
 }
-
+@media screen and (max-width: 576px) {
+  .col-50 {
+    width: 100%;
+  }
+}
 /* 1400px 1200px 992px 768px 576px */
