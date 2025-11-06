@@ -319,7 +319,7 @@ FOOTER SECTION
 
 .footer-section {
   padding: 55px 0;
-  background: url(../assets/fotter-middle.png) center/cover
+  background: url(../assets/footer.png) center/cover
     rgba(0, 31, 81, 90%);
   background-blend-mode: darken;
   display: flex;
