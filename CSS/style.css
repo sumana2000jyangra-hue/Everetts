@@ -234,9 +234,10 @@ ABOUT OUR TEAM SECTION
 ====================
 */
 .about-team-sec{
-  padding: 100px;
+  padding: 100px 0 ;
 }
 .about-row{
+  margin: 0 -15px;
   align-items: center;
 }
 .about-team-desc desc{
@@ -403,9 +404,20 @@ FOOTER SECTION
   .subText {
     font-size: 18px;
   }
+  /* About Section */
+ .about-team-sec .right-part {
+    padding: 0 15px;
+  }
+  @media screen and (max-width: 576px) {
+  .col-50 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
 
   /* Production Section */
 
+  .col-50,
   .col-4 {
     width: 50%;
   }
@@ -434,6 +446,7 @@ FOOTER SECTION
 @media screen and (max-width: 576px) {
   .col-50 {
     width: 100%;
+    margin-bottom: 30px;
   }
 }
-/* 1400px 1200px 992px 768px 576px */
+
